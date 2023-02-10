@@ -32,8 +32,8 @@
 
 
 .stuff-holder{
-    height: 90%;
-    width: 90%;;
+    height: 95%;
+    width: 95%;;
     display: grid;
     place-items: center;
     text-align: center;
@@ -48,6 +48,7 @@
 .stuff-holder p{
     color:hsl(220, 15%, 55%);
     font-weight: 400;
-    font-size: 15px;
-    margin-top:5px;
+    font-size: 20px;
+    /* margin:15px; */
+    padding:15px;
 }
