@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+* body {
+  background-color: hsl(30, 38%, 92%);
+  height: 100vh;
+  max-width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+* body .container {
+  border-radius: 20px;
+  background-color: white;
+  width: 800px;
+  height: 600px;
+  display: flex;
+}
+* body .container img {
+  border-radius: 10px 0 0 10px;
+  width: 50%;
+}
+* body .container .data {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  gap: 30px;
+}
+* body .container .data .info {
+  position: relative;
+  font-size: 18px;
+  width: 290px;
+  letter-spacing: 0.1em;
+}
+* body .container .data h1 {
+  font-family: "Fraunces", serif;
+  width: 250px;
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+* body .container .data .price {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+}
+* body .container .data .price h1 {
+  font-weight: 800;
+  color: hsl(158, 36%, 37%);
+}
+* body .container .data .price p {
+  text-decoration-line: overline, underline;
+  transform: translateX(-50px);
+}
+* body .container .data .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/images/icon-cart.svg);
+  background-repeat: no-repeat;
+  background-position: 25%;
+  background-size: 20px;
+  font-weight: 800;
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  padding: 1.5rem;
+  padding-left: 4rem;
+  border-radius: 10px;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
